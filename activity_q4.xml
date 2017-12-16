@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/accent_material_light"
+    android:layout_height="match_parent"
+    tools:context="com.example.suraj.netpro.Q4">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Q4.Which is the anticeptor missile of India ?"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/radioGroup4"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/button21"
+        android:layout_alignEnd="@+id/button21">
+
+        <RadioButton
+            android:id="@+id/radioButton15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/accent_material_light"
+            android:layout_weight="1"
+            android:text="Prithvi" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/accent_material_light"
+            android:text="S-400" />
+
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/accent_material_light"
+            android:text="Nag" />
+
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/accent_material_light"
+            android:text="THAD" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="19dp"
+        android:text="Previous"
+        android:background="#cb821c" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/button20"
+        android:background="#cb821c" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_alignTop="@+id/button21"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#cb821c" />
+
+</RelativeLayout>
