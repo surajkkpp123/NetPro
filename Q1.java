@@ -21,6 +21,8 @@ public class Q1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_q1);
+
+        //these are the identifying
         b1=(Button)findViewById(R.id.button11);
         b2=(Button)findViewById(R.id.button12);
         b3=(Button)findViewById(R.id.button13);
