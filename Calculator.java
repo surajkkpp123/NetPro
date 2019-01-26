@@ -217,6 +217,7 @@ public class Calculator extends AppCompatActivity {
                 ans.setText(null);
             }
         });
+        //this is subtraction function
         bsub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
